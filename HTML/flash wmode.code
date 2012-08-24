@@ -1,0 +1,4 @@
+﻿<!-- 一个是 IE 中起作用的: -->
+<param name="wmode" value="transparent" />
+<!-- 另外一个是 firefox 中起作用: -->
+<embed src="YourFlash.swf" wmode="transparent" ... ></embed>
