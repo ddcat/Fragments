@@ -1,0 +1,3 @@
+//Custom Buttons Clickable
+.impress-enabled { pointer-events: auto }
+.impress-enabled #impress { pointer-events: auto }
