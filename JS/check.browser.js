@@ -25,3 +25,11 @@ isWebkit = function(){
     if('WebkitTransform' in document.documentElement.style) bool = true;
     return bool;
 };
+//less than jQuery 1.8.x
+var ieVersion = function(){
+    var ver = 100, $ = jQuery;
+    if ($.browser.msie) {
+        ver = parseInt($.browser.version);
+    }
+    return ver;
+};
