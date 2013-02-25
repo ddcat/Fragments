@@ -1,0 +1,14 @@
+/* http://blog.vervestudios.co/blog/post/2011/05/13/IE9-Only-CSS-Hack.aspx */
+#element {
+    color:orange;
+}
+#element {
+    *color: white;    /* IE6+7, doesn't work in IE8/9 as IE7 */
+}
+#element {
+    _color: red;     /* IE6 */
+}
+#element {
+    color: green\0/IE8+9; /* IE8+9  */
+}
+:root #element { color:pink \0/IE9; }  /* IE9 */
