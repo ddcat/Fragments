@@ -1,0 +1,1 @@
+fullPath.split(/(\\|\/)/g).pop();
